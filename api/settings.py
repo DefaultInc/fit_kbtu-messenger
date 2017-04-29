@@ -116,8 +116,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CHANNEL_LAYERS = {
-    "default": {
-        "BACKEND": "asgiref.inmemory.ChannelLayer",
-        "ROUTING": "api.routing.channel_routing",
+    'default': {
+        'BACKEND': 'asgiref.inmemory.ChannelLayer',
+        'ROUTING': 'api.routing.channel_routing',
     },
 }
